@@ -16,6 +16,8 @@ public class Designer extends javax.swing.JFrame {
      */
     public Designer() {
         initComponents();
+        setTitle("Desarrolladores");
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -48,12 +50,14 @@ public class Designer extends javax.swing.JFrame {
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("Nombre: Cruz Plata Luis Antonio\nNo. de cuenta: 313320002\nCorreo Electronico: luisantonio27@live.com.mx\nSemestre: 6to Semestre\nHobie: Jugar videojuegos\nRedes sociales: Facebook-> Luis Antonio Cruz");
         jScrollPane1.setViewportView(jTextArea1);
 
         jTextArea2.setEditable(false);
         jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextArea2.setRows(5);
         jTextArea2.setText("Nombre: Gonzalez de la Vega Emiliano\nNumero de cuenta: 313316283\nCorreo Electronico: egvemiliano@gmail.com\nSemestre: 6to Semestre\nHobie: Jugar basketball\nRedes sociales: Facebook-> Emiliano Gonzalez de la Vega");
         jScrollPane2.setViewportView(jTextArea2);

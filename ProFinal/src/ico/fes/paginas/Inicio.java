@@ -21,6 +21,8 @@ public class Inicio extends javax.swing.JFrame {
         jButton1.setBackground(Color.blue);
         jButton2.setBackground(Color.blue);
         jButton3.setBackground(Color.blue);
+        setTitle("Inicio");
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -114,7 +116,7 @@ public class Inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Teoria obj = new Teoria();
+        TeoriaISO obj = new TeoriaISO();
         obj.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
