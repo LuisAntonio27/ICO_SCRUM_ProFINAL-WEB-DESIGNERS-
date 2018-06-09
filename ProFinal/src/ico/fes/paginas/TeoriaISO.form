@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Teor&#xed;a B&#xe1;sica Ingenier&#xed;a de software "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane2">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane3">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" pref="830" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane6" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jLabel1" min="-2" pref="49" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane6" min="-2" pref="373" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="10"/>
+            <Property name="text" type="java.lang.String" value="&#x2022; Definici&#xf3;n de Ingenier&#xed;a de Software &#xa;Se ocupa del desarrollo completo de la creaci&#xf3;n de un software, desde el an&#xe1;lisis, dise&#xf1;o, construcci&#xf3;n, correcto funcionamiento y mantenimiento. Y que sea econ&#xf3;mico, confiable y funciones de manera eficiente.&#xa;&#xa;&#x2022; Fase de desarrollo de software &#xa;Son m&#xe9;todos formales para producir un resultado. Los m&#xe9;todos de I.S. indican como construir t&#xe9;cnicamente un software.&#xa;&#xa;&#x2022; Fases del desarrollo de software.&#xa;&#xa;&#xf0a7;An&#xe1;lisis y definici&#xf3;n de requerimientos.&#xa;&#xf0a7;Condiciones del sistema (Desarrollo).&#xa;&#xf0a7;Pruebas unitarias.&#xa;&#xf0a7;Pruebas de integraci&#xf3;n.&#xa;&#xf0a7;Pruebas del sistema.&#xa;&#xf0a7;Implementaci&#xf3;n del sistema.&#xa;&#xf0a7;Mantenimiento.&#xa;&#xf0a7;Fin del ciclo de vida (Post-mortem.&#xa;&#xa;&#x2022; An&#xe1;lisis y definici&#xf3;n de requerimientos &#xa;Entender el problema y capturar los requerimientos funcionales, est&#xe1;ndares y actividades. Busca delimitar los alcances del sistema, realizada por el sistema de an&#xe1;lisis de sistema. Determina el costo de proyecto.&#xa;&#xa;&#x2022; Dise&#xf1;o del sistema &#xa;Proceso cautivo de transformaci&#xf3;n de un problema a una soluci&#xf3;n. Determinar las tecnolog&#xed;as de programaci&#xf3;n y computo. El dise&#xf1;ador divide el sistema en paquetes (subsistema).&#xa;&#xa;&#x2022; Pruebas de integraci&#xf3;n &#xa;Se realizan mediante la incorporaci&#xf3;n de los m&#xf3;dulos ya terminados para comprobar que realicen su correcto funcionamiento y se pueda a&#xf1;adir al software, y sirva para determinar que tan eficiente es el dise&#xf1;o.&#xa;&#xa;&#x2022; Pruebas de sistema &#xa;Son las revisiones de requerimientos, que deben cumplir con las especificaciones funcionales inertes.&#xa;&#xa;&#x2022; Calidad de software &#xa;Es aquel que cumple con los requerimientos del usuario final, es decir el software entregado como se esperaba que funcione.&#xa;&#xa;&#x2022; Herramienta en la Ingenier&#xed;a de Software &#xa;Instrumento o sistema automatizado para realizar de manera exacta, eficiente y productiva una tarea.&#xa;&#xa;&#x2022; Herramientas de modelado del Software &#xa;Son los diagramas UML, Catalisis, Objetory, OMT, BOOCH.&#xa;&#xa;&#x2022; Proceso de Ingenier&#xed;a de Software&#xa;Un conjunto de actividades que permiten transformar los requerimientos de un cliente/usuario en sistema software.&#xa;&#xa;&#x2022; Procesos de desarrollo de software &#xa;PSP. Personal Software Process.  TSP. Team Software Process. RUP. Rational Unified Process.&#xa;&#xa;&#x2022; Componentes base en la Ingenier&#xed;a de software&#xa;Herramientas, m&#xe9;todos, procesos y compromiso de calidad.&#xa;&#xa;&#x2022; Proceso unificado del desarrollo de Software&#xa;Es un proceso de ingenier&#xed;a de software que agrupa la, mejores pr&#xe1;cticas de desarrollo de software que existen Enel mercado.&#xa; &#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Home"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="36" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TEORIA DE INGENIERIA DE SOFTWARE"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
